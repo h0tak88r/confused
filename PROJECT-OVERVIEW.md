@@ -6,8 +6,7 @@
 confused/
 ├── .github/                    # GitHub Actions workflows
 │   └── workflows/
-│       ├── codeql-analysis.yml
-│       └── golangci-lint.yml
+│       └── release.yml         # Simple release workflow
 ├── cmd/                        # Main application
 │   └── confused/
 │       ├── main.go            # Application entry point
@@ -34,7 +33,6 @@ confused/
 │   └── web/                   # Web scanning
 │       └── web.go
 ├── .gitignore                 # Git ignore rules
-├── .goreleaser.yml           # GoReleaser configuration
 ├── CHANGELOG.md              # Project changelog
 ├── Dockerfile                # Docker configuration
 ├── docker-compose.yml        # Docker Compose setup
@@ -99,18 +97,11 @@ docker-compose up
 
 ## 📦 Distribution
 
-### GoReleaser
-The project includes `.goreleaser.yml` for automated releases:
-- Cross-platform builds (Linux, Windows, macOS, FreeBSD, OpenBSD)
-- Multiple architectures (amd64, arm64, 386)
-- GitHub releases with binaries
-- Homebrew formula generation
-
 ### GitHub Actions
-Automated CI/CD with:
-- CodeQL security analysis
-- Go linting with golangci-lint
-- Automated releases via GoReleaser
+Simple automated releases with:
+- Build on version tags (v*)
+- Automatic GitHub release creation
+- Single Linux binary distribution
 
 ## 🔧 Configuration
 
