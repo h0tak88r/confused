@@ -31,7 +31,7 @@ save_results: true
 output_dir: "./results"
 
 # Web scanning
-user_agent: "Confused-DepConfusion-Scanner/2.0"
+user_agent: "Confused-DepConfusion-Scanner/2.2.0"
 follow_redirects: true
 
 # Database settings (for AutoAR integration)

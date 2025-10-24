@@ -12,7 +12,7 @@ import (
 var (
 	cfg    *config.Config
 	log    *logger.Logger
-	version = "2.1.0"
+	version = "2.2.0"
 	buildDate = "2025-10-24"
 )
 

@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2025-10-24
+
+### Added
+- **Simplified GitHub Actions**: Streamlined CI/CD with simple release workflow
+- **Automatic Releases**: GitHub Action automatically creates releases on version tags
+- **Clean Project Structure**: Removed complex workflows and unnecessary files
+
+### Changed
+- **GitHub Actions**: Replaced complex CodeQL and linting workflows with simple release workflow
+- **Build Process**: Simplified to single Linux binary builds
+- **Documentation**: Updated project overview and structure documentation
+
+### Removed
+- **CodeQL Analysis**: Removed complex security scanning workflow
+- **GoLint Workflow**: Removed golangci-lint workflow
+- **GoReleaser**: Removed complex cross-platform build configuration
+- **Test Artifacts**: Cleaned up all testing and temporary files
+
+### Technical Details
+- **Release Workflow**: Simple workflow that triggers on version tags (v*)
+- **Build Process**: Uses Go build with version and date injection
+- **Release Creation**: Uses softprops/action-gh-release for automatic releases
+- **Project Cleanup**: Removed 29 files including test artifacts and documentation
+
 ## [2.1.0] - 2025-10-24
 
 ### Added

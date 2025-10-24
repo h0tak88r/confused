@@ -2,7 +2,7 @@
 
 # Variables
 BINARY_NAME=confused
-VERSION=2.1.0
+VERSION=2.2.0
 BUILD_DATE=$(shell date -u +%Y-%m-%d)
 LDFLAGS=-ldflags "-X main.version=$(VERSION) -X main.buildDate=$(BUILD_DATE)"
 

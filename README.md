@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/go-1.21+-blue.svg)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.1.0-orange.svg)](https://github.com/h0tak88r/confused/releases)
+[![Version](https://img.shields.io/badge/version-2.2.0-orange.svg)](https://github.com/h0tak88r/confused/releases)
 
 An advanced, professional-grade dependency confusion scanner that can scan local files, GitHub repositories, organizations, and web targets for dependency confusion vulnerabilities. Built with Go for high performance and concurrent processing.
 
@@ -571,6 +571,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **The Go Community** for excellent libraries and tools
 
 ## 📋 Changelog
+
+### v2.2.0 - Simplified GitHub Actions & Clean Project
+**Release Date**: October 24, 2025
+
+#### 🚀 New Features
+- **Simplified GitHub Actions**: Streamlined CI/CD with simple release workflow
+- **Automatic Releases**: GitHub Action automatically creates releases on version tags
+- **Clean Project Structure**: Removed complex workflows and unnecessary files
+
+#### 🔧 Improvements
+- **GitHub Actions**: Replaced complex CodeQL and linting workflows with simple release workflow
+- **Build Process**: Simplified to single Linux binary builds
+- **Documentation**: Updated project overview and structure documentation
+
+#### 🗑️ Removed
+- **CodeQL Analysis**: Removed complex security scanning workflow
+- **GoLint Workflow**: Removed golangci-lint workflow
+- **GoReleaser**: Removed complex cross-platform build configuration
+- **Test Artifacts**: Cleaned up all testing and temporary files
 
 ### v2.1.0 - Enhanced Concurrency & Multi-Target Support
 **Release Date**: October 24, 2025
