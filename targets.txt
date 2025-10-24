@@ -1,8 +1,0 @@
-# Sample targets file for web scanning
-# Lines starting with # are comments and will be ignored
-# Empty lines are also ignored
-
-https://httpbin.org
-https://raw.githubusercontent.com/facebook/react/main
-https://github.com
-https://example.com
