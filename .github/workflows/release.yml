@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: Build
+        run: |
+          go mod tidy
+          go build -ldflags "-X main.version=${GITHUB_REF_NAME} -X main.buildDate=$(date -u +%Y-%m-%d)" -o confused ./cmd/confused
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: confused
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
