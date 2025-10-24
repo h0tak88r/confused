@@ -1,0 +1,340 @@
+{
+  "results": [
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/ACSLibrary/com.microsoftopentechnologies.acsfilter.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:39.48458358Z",
+      "duration": 248708,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/ACSLibrary/com.microsoftopentechnologies.acsfilter.feature/pom.xml",
+        "file_sha": "a9b18b2cfe2a3b1bc7a7b3db70063f1af6cf751f",
+        "file_size": 722
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/ACSLibrary/com.microsoftopentechnologies.acsfilter.ui/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:39.866813059Z",
+      "duration": 185920,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/ACSLibrary/com.microsoftopentechnologies.acsfilter.ui/pom.xml",
+        "file_sha": "2f4e945db587e6409815ec800bbc6fbcd9b85d87",
+        "file_size": 716
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/ACSLibrary/com.microsoftopentechnologies.acsfilter/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:40.279932596Z",
+      "duration": 205892,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/ACSLibrary/com.microsoftopentechnologies.acsfilter/pom.xml",
+        "file_sha": "7ad3525222db0f3952520c82497665b24e2b6096",
+        "file_size": 713
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/AppInsights/com.microsoft.applicationinsights.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:40.610542006Z",
+      "duration": 194091,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/AppInsights/com.microsoft.applicationinsights.feature/pom.xml",
+        "file_sha": "9a62e4b5386c85e37568d087047d0dae6f739e4b",
+        "file_size": 716
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/AppInsights/com.microsoft.applicationinsights.ui/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:40.947822399Z",
+      "duration": 200460,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/AppInsights/com.microsoft.applicationinsights.ui/pom.xml",
+        "file_sha": "c1ce5e7bc6e98be04beca14054262606f3dc3495",
+        "file_size": 710
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/AzureLibraries/com.microsoftopentechnologies.windowsazure.tools.sdk.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:41.322532368Z",
+      "duration": 172012,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/AzureLibraries/com.microsoftopentechnologies.windowsazure.tools.sdk.feature/pom.xml",
+        "file_sha": "81f57448430b09fbd6162744a932fd0c9674723a",
+        "file_size": 735
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/AzureLibraries/com.microsoftopentechnologies.windowsazure.tools.sdk/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:41.652584676Z",
+      "duration": 298470,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/AzureLibraries/com.microsoftopentechnologies.windowsazure.tools.sdk/pom.xml",
+        "file_sha": "eb7848b81fe13a0933e0b9831ca41f1b19ec422a",
+        "file_size": 726
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/AzureLibraries/com.microsoftopentechnologies.windowsazure.tools.wasdkjava.ui/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:42.063562999Z",
+      "duration": 187275,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/AzureLibraries/com.microsoftopentechnologies.windowsazure.tools.wasdkjava.ui/pom.xml",
+        "file_sha": "938e2ffa3cfaf3fbf9bfef5265be1842e8c1a529",
+        "file_size": 735
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/JDBCLibrary/JavaEE6/com.microsoft.sqljdbc4.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:42.469071275Z",
+      "duration": 194001,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/JDBCLibrary/JavaEE6/com.microsoft.sqljdbc4.feature/pom.xml",
+        "file_sha": "b73f3eb12a43bee0a9ed49a279adb04941510cb8",
+        "file_size": 706
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/JDBCLibrary/JavaEE6/com.microsoft.sqljdbc4.ui/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:42.802404808Z",
+      "duration": 195279,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/JDBCLibrary/JavaEE6/com.microsoft.sqljdbc4.ui/pom.xml",
+        "file_sha": "1e3db2bf44689383aeee2d8242ad38efac9450ca",
+        "file_size": 700
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/JDBCLibrary/JavaEE6/com.microsoft.sqljdbc4/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:43.113991961Z",
+      "duration": 237884,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/JDBCLibrary/JavaEE6/com.microsoft.sqljdbc4/pom.xml",
+        "file_sha": "5220a4a7c663809600c7304d259d0b74223a3a9d",
+        "file_size": 697
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/QpidLibraries/com.microsoftopentechnologies.qpid.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:43.448466521Z",
+      "duration": 200373,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/QpidLibraries/com.microsoftopentechnologies.qpid.feature/pom.xml",
+        "file_sha": "053e4342db8170c838c2671447b1e1ef0015a628",
+        "file_size": 718
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/QpidLibraries/com.microsoftopentechnologies.qpid.ui/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:43.896177507Z",
+      "duration": 162408,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/QpidLibraries/com.microsoftopentechnologies.qpid.ui/pom.xml",
+        "file_sha": "558e9786cff5553e1709132eb61263ec623dc130",
+        "file_size": 712
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/AddLibrary/QpidLibraries/com.microsoftopentechnologies.qpid/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:44.386464132Z",
+      "duration": 250890,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/AddLibrary/QpidLibraries/com.microsoftopentechnologies.qpid/pom.xml",
+        "file_sha": "ce035b970be25c6b05e2fd4bb972729d38595b4c",
+        "file_size": 709
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/WindowsAzurePlugin4EJ/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:44.75184914Z",
+      "duration": 296111,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/WindowsAzurePlugin4EJ/pom.xml",
+        "file_sha": "44ca96aa22044a5d0daae05b55997688b5eb6a44",
+        "file_size": 693
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/com.microsoft.azureexplorer.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:45.128525182Z",
+      "duration": 195004,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/com.microsoft.azureexplorer.feature/pom.xml",
+        "file_sha": "64e0596f89328f37e709f2491adff75406d1ff22",
+        "file_size": 742
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/com.microsoft.azureexplorer/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:45.551498566Z",
+      "duration": 163375,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/com.microsoft.azureexplorer/pom.xml",
+        "file_sha": "7e6349c58d2d3419fd4c08e8a57a45f8eb6d765f",
+        "file_size": 695
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/com.microsoftopentechnologies.wacommon.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:45.894766295Z",
+      "duration": 183022,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/com.microsoftopentechnologies.wacommon.feature/pom.xml",
+        "file_sha": "d2e6dbbc27044fc81a5f0e759a28e7846aa6289c",
+        "file_size": 715
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/com.microsoftopentechnologies.wacommon/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:46.293816385Z",
+      "duration": 186574,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/com.microsoftopentechnologies.wacommon/pom.xml",
+        "file_sha": "85a6cdb7a12616f625888fdb2e82426bdb2ae1f5",
+        "file_size": 706
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/com.persistent.winazure.eclipseplugin.feature/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:46.644165178Z",
+      "duration": 274960,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/com.persistent.winazure.eclipseplugin.feature/pom.xml",
+        "file_sha": "e15ad67d44413eaf3dabdcd69f8b1293329db9c8",
+        "file_size": 714
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/com.persistent.winazure.eclipseplugin/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:47.002970836Z",
+      "duration": 226211,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/com.persistent.winazure.eclipseplugin/pom.xml",
+        "file_sha": "c0e53e77ea3f8b9ae3292c25331ca155536b6022",
+        "file_size": 705
+      }
+    },
+    {
+      "target": "microsoft/WindowsAzureToolkitForEclipseWithJava:PluginsAndFeatures/pom.xml",
+      "type": "github",
+      "language": "mvn",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:42:47.323621128Z",
+      "duration": 393669,
+      "metadata": {
+        "file_path": "PluginsAndFeatures/pom.xml",
+        "file_sha": "9fb384e0f0b42106b63462dc264decd46534d3ae",
+        "file_size": 3974
+      }
+    }
+  ],
+  "summary": {
+    "total_targets": 22,
+    "vulnerable_count": 0,
+    "safe_count": 0,
+    "total_duration": 393669
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "results": [
+    {
+      "target": "facebook/react:compiler/apps/playground/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:11.626471387Z",
+      "duration": 200583,
+      "metadata": {
+        "file_path": "compiler/apps/playground/package.json",
+        "file_sha": "7c187b439e78ad0556f8f49be8b3ba35a7aa5da8",
+        "file_size": 2358
+      }
+    },
+    {
+      "target": "facebook/react:compiler/apps/playground/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:11.718660914Z",
+      "duration": 671571,
+      "metadata": {
+        "file_path": "compiler/apps/playground/yarn.lock",
+        "file_sha": "232d37448ee3398cad10e0cdad5e811b4afcb890",
+        "file_size": 210609
+      }
+    },
+    {
+      "target": "facebook/react:compiler/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:11.810749939Z",
+      "duration": 300947,
+      "metadata": {
+        "file_path": "compiler/package.json",
+        "file_sha": "4492b70210803a8a189740b6276281ab51270c90",
+        "file_size": 1503
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/babel-plugin-react-compiler/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:11.86619956Z",
+      "duration": 192281,
+      "metadata": {
+        "file_path": "compiler/packages/babel-plugin-react-compiler/package.json",
+        "file_sha": "7647bcab1ca4238eb57eae7e1bc65fcb6ceaa841",
+        "file_size": 2346
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/eslint-plugin-react-compiler/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:11.949449184Z",
+      "duration": 192290,
+      "metadata": {
+        "file_path": "compiler/packages/eslint-plugin-react-compiler/package.json",
+        "file_sha": "3dd77d0e8bf3951a511357ec10b164d5ac581ed0",
+        "file_size": 1211
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/make-read-only-util/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.00929463Z",
+      "duration": 174765,
+      "metadata": {
+        "file_path": "compiler/packages/make-read-only-util/package.json",
+        "file_sha": "20a4643cd5299fc07a934719a754e7d25ce1c1ec",
+        "file_size": 651
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-compiler-healthcheck/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.094758143Z",
+      "duration": 192632,
+      "metadata": {
+        "file_path": "compiler/packages/react-compiler-healthcheck/package.json",
+        "file_sha": "5c3d2f412d97e1c93967e758f2ae8846896ce73e",
+        "file_size": 893
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-compiler-runtime/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.185661131Z",
+      "duration": 170308,
+      "metadata": {
+        "file_path": "compiler/packages/react-compiler-runtime/package.json",
+        "file_sha": "60a192b0a7ca8f343f80b2790dcfabbbb38b23a5",
+        "file_size": 603
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-forgive/client/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.256832009Z",
+      "duration": 176219,
+      "metadata": {
+        "file_path": "compiler/packages/react-forgive/client/package.json",
+        "file_sha": "a975439726f23f240d39a13eb988f68aa4231982",
+        "file_size": 497
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-forgive/client/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.313900763Z",
+      "duration": 269433,
+      "metadata": {
+        "file_path": "compiler/packages/react-forgive/client/yarn.lock",
+        "file_sha": "b96751788c77b7cb9cd4496b1706b241b4f3f3b7",
+        "file_size": 2906
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-forgive/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.376924445Z",
+      "duration": 216668,
+      "metadata": {
+        "file_path": "compiler/packages/react-forgive/package.json",
+        "file_sha": "fc7d71095c51cacfc68260fd30e59471891cbb73",
+        "file_size": 1869
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-forgive/server/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.558521968Z",
+      "duration": 185309,
+      "metadata": {
+        "file_path": "compiler/packages/react-forgive/server/package.json",
+        "file_sha": "c91258607205fed0205a22121e063a31bdf6b390",
+        "file_size": 695
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-forgive/server/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.619373683Z",
+      "duration": 199308,
+      "metadata": {
+        "file_path": "compiler/packages/react-forgive/server/yarn.lock",
+        "file_sha": "ee346ce7d3a54b969fec66e9c9c06c89cf935569",
+        "file_size": 16309
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/react-mcp-server/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.688832923Z",
+      "duration": 304893,
+      "metadata": {
+        "file_path": "compiler/packages/react-mcp-server/package.json",
+        "file_sha": "07dc378de12e9b28dd5927a13222234e6c5198bc",
+        "file_size": 1215
+      }
+    },
+    {
+      "target": "facebook/react:compiler/packages/snap/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.752598233Z",
+      "duration": 173787,
+      "metadata": {
+        "file_path": "compiler/packages/snap/package.json",
+        "file_sha": "085422ab83034cd30148296cff6158f8bc0ac6f4",
+        "file_size": 2213
+      }
+    },
+    {
+      "target": "facebook/react:compiler/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.878365572Z",
+      "duration": 3158301,
+      "metadata": {
+        "file_path": "compiler/yarn.lock",
+        "file_sha": "764200c2ce9de12d9c247d3352d882990cba831f",
+        "file_size": 468397
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/art/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:12.948144495Z",
+      "duration": 268965,
+      "metadata": {
+        "file_path": "fixtures/art/package.json",
+        "file_sha": "7bab6d59eb1c70e4ec68d511ebab2d51e86b90e2",
+        "file_size": 460
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/art/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:13.022375562Z",
+      "duration": 511350,
+      "metadata": {
+        "file_path": "fixtures/art/yarn.lock",
+        "file_sha": "08f99e058e05e7f0355e1a333902eac2d0d8fa6b",
+        "file_size": 121154
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/attribute-behavior/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:13.093038663Z",
+      "duration": 226943,
+      "metadata": {
+        "file_path": "fixtures/attribute-behavior/package.json",
+        "file_sha": "345fd34a8d9fe9d74d1ef532d8fdd853e3273f10",
+        "file_size": 765
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/attribute-behavior/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:13.199987528Z",
+      "duration": 877098,
+      "metadata": {
+        "file_path": "fixtures/attribute-behavior/yarn.lock",
+        "file_sha": "7529b7a098a9c216f234ae4315c999b49750bd1f",
+        "file_size": 231640
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/concurrent/time-slicing/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:13.252671211Z",
+      "duration": 157738,
+      "metadata": {
+        "file_path": "fixtures/concurrent/time-slicing/package.json",
+        "file_sha": "58467673ae49b7b0d6b03e499d9ae6aa296fadf2",
+        "file_size": 548
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/concurrent/time-slicing/yarn.lock",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:13.355885533Z",
+      "duration": 1146541,
+      "metadata": {
+        "file_path": "fixtures/concurrent/time-slicing/yarn.lock",
+        "file_sha": "c5e0f40fc9858232eaa6c81af1fa938638b574ce",
+        "file_size": 354548
+      }
+    },
+    {
+      "target": "facebook/react:fixtures/dom/package.json",
+      "type": "github",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:59:13.413269272Z",
+      "duration": 184635,
+      "metadata": {
+        "file_path": "fixtures/dom/package.json",
+        "file_sha": "d71dbe3ffae54db070694e32c485ba4712bd08f8",
+        "file_size": 733
+      }
+    }
+  ],
+  "summary": {
+    "total_targets": 23,
+    "vulnerable_count": 0,
+    "safe_count": 0,
+    "total_duration": 3158301
+  }
+}

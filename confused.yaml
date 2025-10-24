@@ -1,0 +1,44 @@
+# Confused Dependency Confusion Scanner Configuration
+
+# General settings
+verbose: false
+output: ""
+format: "text"  # text, json, html
+workers: 10
+timeout: 30
+
+# GitHub settings
+github_token: ""  # Set via CONFUSED_GITHUB_TOKEN environment variable
+github_org: ""
+github_repo: ""
+max_repos: 50
+
+# Target settings
+targets: []
+target_file: ""
+
+# Scanning settings
+safe_spaces: []  # Known-safe namespaces (supports wildcards)
+languages: ["npm", "pip", "composer", "mvn", "rubygems"]
+deep_scan: false
+
+# Rate limiting
+rate_limit: 100
+delay: 100
+
+# Output settings
+save_results: true
+output_dir: "./results"
+
+# Web scanning
+user_agent: "Confused-DepConfusion-Scanner/2.0"
+follow_redirects: true
+
+# Database settings (for AutoAR integration)
+database:
+  type: "postgresql"  # postgresql, sqlite
+  host: "localhost"
+  port: 5432
+  username: ""
+  password: ""
+  database: "confused"

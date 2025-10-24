@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "target": "raw.githubusercontent.com:package.json",
+      "type": "web",
+      "language": "npm",
+      "vulnerable_packages": [
+        "eslint-plugin-react-internal",
+        "eslint-plugin-react-hooks-published"
+      ],
+      "safe_packages": [],
+      "total_packages": 2,
+      "timestamp": "2025-10-24T08:57:48.737832492Z",
+      "duration": 7519685879,
+      "metadata": {
+        "file_path": "package.json",
+        "file_size": 8090,
+        "file_url": "https://raw.githubusercontent.com/facebook/react/main/package.json",
+        "status_code": 200
+      }
+    },
+    {
+      "target": "raw.githubusercontent.com:yarn.lock",
+      "type": "web",
+      "language": "npm",
+      "vulnerable_packages": [],
+      "safe_packages": [],
+      "total_packages": 0,
+      "timestamp": "2025-10-24T08:57:56.335165803Z",
+      "duration": 1017162,
+      "metadata": {
+        "file_path": "yarn.lock",
+        "file_size": 826436,
+        "file_url": "https://raw.githubusercontent.com/facebook/react/main/yarn.lock",
+        "status_code": 200
+      }
+    }
+  ],
+  "summary": {
+    "total_targets": 2,
+    "vulnerable_count": 2,
+    "safe_count": 0,
+    "total_duration": 7519685879
+  }
+}
