@@ -15,7 +15,7 @@ all: build
 build:
 	@echo "Building $(BINARY_NAME)..."
 	@go mod tidy
-	@go build $(LDFLAGS) -o $(BINARY_NAME) ./cmd/confused
+	@go build $(LDFLAGS) -o $(BINARY_NAME) ./cmd/confused2
 	@echo "Build complete! Binary: $(BINARY_NAME)"
 
 # Clean build artifacts
@@ -61,10 +61,10 @@ deps:
 .PHONY: cross-compile
 cross-compile: clean
 	@echo "Cross-compiling for multiple platforms..."
-	@GOOS=linux GOARCH=amd64 go build $(LDFLAGS) -o $(BINARY_NAME)-linux-amd64 ./cmd/confused
-	@GOOS=windows GOARCH=amd64 go build $(LDFLAGS) -o $(BINARY_NAME)-windows-amd64.exe ./cmd/confused
-	@GOOS=darwin GOARCH=amd64 go build $(LDFLAGS) -o $(BINARY_NAME)-darwin-amd64 ./cmd/confused
-	@GOOS=darwin GOARCH=arm64 go build $(LDFLAGS) -o $(BINARY_NAME)-darwin-arm64 ./cmd/confused
+	@go build $(LDFLAGS) -o $(BINARY_NAME)-linux-amd64 ./cmd/confused2
+	@GOOS=windows GOARCH=amd64 go build $(LDFLAGS) -o $(BINARY_NAME)-windows-amd64.exe ./cmd/confused2
+	@GOOS=darwin GOARCH=amd64 go build $(LDFLAGS) -o $(BINARY_NAME)-darwin-amd64 ./cmd/confused2
+	@GOOS=darwin GOARCH=arm64 go build $(LDFLAGS) -o $(BINARY_NAME)-darwin-arm64 ./cmd/confused2
 	@echo "Cross-compilation complete!"
 
 # Run the binary
@@ -83,7 +83,7 @@ config:
 .PHONY: install
 install: build
 	@echo "Installing $(BINARY_NAME)..."
-	@go install $(LDFLAGS) ./cmd/confused
+	@go install $(LDFLAGS) ./cmd/confused2
 	@echo "Installation complete!"
 
 # Show help

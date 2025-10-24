@@ -19,7 +19,7 @@ RUN go mod download
 COPY . .
 
 # Build the application
-RUN go build -ldflags "-X main.version=2.0.0 -X main.buildDate=$(date -u +%Y-%m-%d)" -o confused ./cmd/confused
+RUN go build -ldflags "-X main.version=2.2.0 -X main.buildDate=$(date -u +%Y-%m-%d)" -o confused2 ./cmd/confused2
 
 # Final stage
 FROM alpine:3.18
@@ -38,7 +38,7 @@ RUN adduser -D -s /bin/sh confused
 WORKDIR /app
 
 # Copy binary from builder stage
-COPY --from=builder /app/confused /usr/local/bin/confused
+COPY --from=builder /app/confused2 /usr/local/bin/confused2
 
 # Copy configuration files
 COPY confused.yaml /etc/confused/confused.yaml
@@ -55,10 +55,10 @@ ENV CONFUSED_VERBOSE=false
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD confused --help > /dev/null || exit 1
+    CMD confused2 --help > /dev/null || exit 1
 
 # Default command
-ENTRYPOINT ["confused"]
+ENTRYPOINT ["confused2"]
 CMD ["--help"]
 
 # Labels

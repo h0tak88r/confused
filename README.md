@@ -54,7 +54,7 @@ go build -o confused
 
 ### Go Install
 ```bash
-go install github.com/h0tak88r/confused2/cmd/confused@latest
+go install github.com/h0tak88r/confused2/cmd/confused2@latest
 ```
 
 ## 🚀 Quick Start

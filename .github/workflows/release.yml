@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: |
           go mod tidy
-          go build -ldflags "-X main.version=${GITHUB_REF_NAME} -X main.buildDate=$(date -u +%Y-%m-%d)" -o confused2 ./cmd/confused
+          go build -ldflags "-X main.version=${GITHUB_REF_NAME} -X main.buildDate=$(date -u +%Y-%m-%d)" -o confused2 ./cmd/confused2
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
