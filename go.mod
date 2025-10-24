@@ -1,4 +1,4 @@
-module github.com/h0tak88r/confused
+module github.com/h0tak88r/confused2
 
 go 1.21
 

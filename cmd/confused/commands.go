@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/h0tak88r/confused/internal/resolvers"
-	"github.com/h0tak88r/confused/internal/types"
-	"github.com/h0tak88r/confused/pkg/github"
-	"github.com/h0tak88r/confused/pkg/web"
+	"github.com/h0tak88r/confused2/internal/resolvers"
+	"github.com/h0tak88r/confused2/internal/types"
+	"github.com/h0tak88r/confused2/pkg/github"
+	"github.com/h0tak88r/confused2/pkg/web"
 	"github.com/spf13/cobra"
 )
 

@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/google/go-github/v58/github"
-	"github.com/h0tak88r/confused/internal/resolvers"
-	"github.com/h0tak88r/confused/internal/types"
-	"github.com/h0tak88r/confused/pkg/config"
-	"github.com/h0tak88r/confused/pkg/logger"
+	"github.com/h0tak88r/confused2/internal/resolvers"
+	"github.com/h0tak88r/confused2/internal/types"
+	"github.com/h0tak88r/confused2/pkg/config"
+	"github.com/h0tak88r/confused2/pkg/logger"
 	"golang.org/x/oauth2"
 )
 

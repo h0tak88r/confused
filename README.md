@@ -1,4 +1,4 @@
-# Confused - Advanced Dependency Confusion Scanner
+# Confused2 - Advanced Dependency Confusion Scanner
 
 [![Go Version](https://img.shields.io/badge/go-1.21+-blue.svg)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -54,7 +54,7 @@ go build -o confused
 
 ### Go Install
 ```bash
-go install github.com/h0tak88r/confused@latest
+go install github.com/h0tak88r/confused2/cmd/confused@latest
 ```
 
 ## 🚀 Quick Start
@@ -62,22 +62,22 @@ go install github.com/h0tak88r/confused@latest
 ### Scan a Local File
 ```bash
 # Scan a package.json file
-confused scan package.json
+confused2 scan package.json
 
 # Scan with specific language and workers
-confused scan -l pip requirements.txt -w 20
+confused2 scan -l pip requirements.txt -w 20
 
 # Scan with safe spaces (known secure namespaces)
-confused scan -l npm package.json --safe-spaces "@mycompany/*,@trusted/*"
+confused2 scan -l npm package.json --safe-spaces "@mycompany/*,@trusted/*"
 ```
 
 ### Scan GitHub Repository
 ```bash
 # Scan a specific repository
-confused github repo microsoft/PowerShell
+confused2 github repo microsoft/PowerShell
 
 # Scan with custom settings
-confused github repo facebook/react -w 20 --languages npm,pip --deep
+confused2 github repo facebook/react -w 20 --languages npm,pip --deep
 ```
 
 ### Scan GitHub Organization

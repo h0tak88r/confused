@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/h0tak88r/confused/pkg/config"
-	"github.com/h0tak88r/confused/pkg/logger"
+	"github.com/h0tak88r/confused2/pkg/config"
+	"github.com/h0tak88r/confused2/pkg/logger"
 	"github.com/spf13/cobra"
 )
 

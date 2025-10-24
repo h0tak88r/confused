@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/h0tak88r/confused/internal/types"
+	"github.com/h0tak88r/confused2/internal/types"
 )
 
 type Gem struct {

@@ -1,7 +1,7 @@
 # Makefile for Confused Dependency Confusion Scanner
 
 # Variables
-BINARY_NAME=confused
+BINARY_NAME=confused2
 VERSION=2.2.0
 BUILD_DATE=$(shell date -u +%Y-%m-%d)
 LDFLAGS=-ldflags "-X main.version=$(VERSION) -X main.buildDate=$(BUILD_DATE)"

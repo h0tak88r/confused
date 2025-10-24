@@ -2,7 +2,7 @@ package resolvers
 
 import (
 	"fmt"
-	"github.com/h0tak88r/confused/internal/types"
+	"github.com/h0tak88r/confused2/internal/types"
 )
 
 // GetResolverForLanguage returns a resolver for the given language

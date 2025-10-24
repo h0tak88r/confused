@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/h0tak88r/confused/internal/resolvers"
-	"github.com/h0tak88r/confused/internal/types"
-	"github.com/h0tak88r/confused/pkg/logger"
+	"github.com/h0tak88r/confused2/internal/resolvers"
+	"github.com/h0tak88r/confused2/internal/types"
+	"github.com/h0tak88r/confused2/pkg/logger"
 )
 
 // Scanner represents a web dependency scanner
